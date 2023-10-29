@@ -1,0 +1,238 @@
+html {
+    background-color: #810000;
+}
+
+body {
+    margin: 0 auto 0;
+    color: #1B1717;
+    text-align: center;
+    
+}
+
+.opening {
+    color: #630000;
+    text-align: center;
+    font-family: 'Edu TAS Beginner', serif;
+    font-size: 2rem;
+}
+
+.welcome {
+    font-family: 'serif';
+}
+
+h1 {
+    padding: 0 auto 0 auto;
+    font-family: 'Ubuntu';
+}
+
+p {
+    text-align: justify;
+    padding: 0;
+}
+
+.profile {
+    width: 50%;
+    margin: 0 auto 0;
+}
+
+.intro {
+    text-align: center;
+}
+
+.top {
+    border: 0px auto 0 auto;
+    background-color: #810000;
+    text-align: center;
+    color: #1B1717;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Barlow Condensed';
+}
+
+.cloud {
+    width: 100%;    
+    display:block;
+    height: auto;
+    background-color: #810000;
+}
+
+.middle {
+    height: auto;
+    background-image: -webkit-linear-gradient(top, white, #EEEBDD);
+    font-family: 'Barlow Condensed';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.topgradient {
+    margin: 0;
+}
+
+.android {
+    width: 33%;
+}
+
+.skill-row {
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.programming {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.biotech {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.art {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.sea {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.star {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.music {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.mountain {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.bottom {
+    text-align: center;
+    color: white;
+    padding: 0;
+    font-family: 'Barlow Condensed';
+}
+
+h2 {
+    color: #630000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.darkred {
+    padding: 30px 0 0;
+    height: 60px;
+    background-color: #630000;
+    font-size: 1.5rem;
+}
+
+a {
+    padding: 0 30px;
+    position: relative;
+    margin-bottom: 0%;
+    color: #1B1717;
+    font-family: 'Red Hat Display';
+    text-decoration: none;
+    margin: auto;
+}
+
+.contact-me {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.in-touch-a {
+    margin-top: 10px;
+    font-family: 'Red Hat Display';
+}
+
+.in-touch-b {
+    margin: 0;
+}
+
+.contact-message {
+    text-align: center;
+}
+
+.black {
+    height: 50px;
+    background-color: #1B1717;
+    position: relative;
+}
+
+.button-89 {
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    margin-bottom: 20px;
+
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #1B1717;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    color: #EEEBDD;
+    margin: 0;
+    font-size: 1rem;
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+hr {
+    border: dotted #810000 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 10px auto;
+}
+
+/* font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
